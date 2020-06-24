@@ -1,0 +1,26 @@
+.CaseGrille{
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+    -fx-font-size: 30px;
+    -fx-border-color: #39393b;
+    -fx-font-weight: 900;
+}
+
+.CaseGrille_modifiable{
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+    -fx-font-size: 30px;
+    -fx-border-color: #39393b;
+    -fx-font-weight: lighter;
+    -fx-font-style: italic;
+}
+
+.CaseGrille_modifiable:focused {
+    -fx-alignment: center;
+    -fx-font-size: 30px;
+    -fx-border-color: saddlebrown;
+    -fx-border-width: 2px;
+    -fx-background-color: transparent;
+    -fx-font-weight: lighter;
+    -fx-font-style: italic;
+}
